@@ -427,20 +427,3 @@ GROUP BY O.OrderID
 ) 
 ORDER BY CustomerTotal DESC; 
 
-
--- 4. Identify suppliers who provide products in the top-selling category during Black Friday.
-
-
-SELECT 
-
--- Part C: Indexing
-
--- 5. Create an index on the Order table for order_date and customer_id to optimize queries filtering by date andcustomer. Explain why this index improves performance.
--- 6. Use EXPLAIN (or similar) to compare query execution plans before and after indexing.
-
--- Part D: Views
--- 7. Create a view named BlackFridaySales that shows customer_name, product_name, quantity, and total_price for all Black Friday orders.
--- 8. Using the view, write a query to find customers who purchased more than 5 items in total during Black Friday week.
--- Part E: Analysis
--- 9. Discuss how indexes can help prevent downtime during high-traffic events like Black Friday.
--- 10. Explain the role of views in improving security and simplifying reporting for seasonal sales.
